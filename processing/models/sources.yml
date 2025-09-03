@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: public
+    database: retail
+    schema: public
+    tables:
+      - name: customers
+      - name: products
+      - name: sales

@@ -2,6 +2,7 @@
 venv/
 env/
 ENV/
+venv_dbt/
 
 # Python cache files
 __pycache__/
@@ -45,3 +46,9 @@ coverage.xml
 build/
 dist/
 *.egg-info/
+
+#dbt
+.dbt/
+
+processing/target/
+processing/logs/

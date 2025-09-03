@@ -25,6 +25,3 @@ storage/postgres_data/
 # OS files
 .DS_Store
 Thumbs.db
-
-# Git
-.gitignore

@@ -10,10 +10,4 @@ It demonstrates ingestion, storage, transformation, and analytics using modern d
 - Loader script (`load_to_postgres.py`) for structured data
 - Architecture diagram (`docs/architecture.png`)
 
-## Getting Started
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
-   ```
+## Coming Soon

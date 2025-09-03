@@ -1,5 +1,7 @@
 # Virtual environment
 venv/
+env/
+ENV/
 
 # Python cache files
 __pycache__/
@@ -19,9 +21,27 @@ docker-compose.override.yaml
 # PostgreSQL data
 storage/postgres_data/
 
-# VS Code
+# VS Code / PyCharm
 .vscode/
+.idea/
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Data (ignore generated CSVs)
+data/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage / test outputs
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Build / packaging
+build/
+dist/
+*.egg-info/

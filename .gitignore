@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Environment variables
+.env
+
+# Docker
+*.log
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# PostgreSQL data
+storage/postgres_data/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.gitignore

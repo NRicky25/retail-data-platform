@@ -38,9 +38,6 @@ cp .env.example .env
 docker compose up -d
 ```
 
-Postgres → localhost:5433
-Adminer (UI) → http://localhost:8080
-
 ## 3. Run pipeline end-to-end
 
 ```bash
@@ -66,17 +63,14 @@ streamlit run dashboard/app.py --server.address=0.0.0.0 --server.port=8501
 
 ### Dashboard
 
-<!-- add screenshot of Streamlit app -->
 <p align="center"> <img src="docs/dashboard.png" alt="Streamlit dashboard" width="600"/> </p>
 
 ### Airflow DAG
 
-<!-- add screenshot of Airflow UI DAG view -->
 <p align="center"> <img src="docs/dag.png" alt="Airflow DAG" width="600"/> </p>
 
 ### dbt Lineage
 
-<!-- add screenshot from dbt docs -->
 <p align="center"> <img src="docs/lineage graph.png" alt="dbt lineage" width="600"/> </p>
 
 ## 🧪 Data Quality (dbt tests)

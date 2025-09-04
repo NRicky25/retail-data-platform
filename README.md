@@ -128,4 +128,4 @@ CI/CD for data
 Ricky  
 💼 Aspiring Data Engineer \| Web Developer → Data Platforms  
 📧 kengeangkang@gmail.com  
-🔗 [LinkedIn](www.linkedin.com/in/kengeang-kang)
+🔗 [LinkedIn](https://www.linkedin.com/in/kengeang-kang/)

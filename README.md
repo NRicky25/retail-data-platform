@@ -67,7 +67,7 @@ streamlit run dashboard/app.py --server.address=0.0.0.0 --server.port=8501
 
 ### Airflow DAG
 
-<p align="center"> <img src="docs/dag.png" alt="Airflow DAG" width="600"/> </p>
+<p align="center"> <img src="docs/dag1.png" alt="Airflow DAG" width="600"/> </p>
 
 ### dbt Lineage
 

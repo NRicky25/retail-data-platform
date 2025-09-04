@@ -1,12 +1,16 @@
 import os, sys
 from pathlib import Path
 import psycopg2
+from dotenv import load_dotenv
 
-PG_HOST = os.getenv("PGHOST", "localhost")
-PG_PORT = int(os.getenv("PGPORT", "5432"))
-PG_USER = os.getenv("PGUSER", "admin")
-PG_PASSWORD = os.getenv("PGPASSWORD", "admin")
-PG_DB = os.getenv("PGDATABASE", "retail")
+load_dotenv()
+
+# PG_HOST = os.getenv("PGHOST", "localhost")
+PG_HOST = os.getenv("PG_HOST", "127.0.0.1")
+PG_PORT = int(os.getenv("PG_PORT", "5433"))
+PG_DB   = os.getenv("PG_DB",   "retail")
+PG_USER = os.getenv("PG_USER", "admin")
+PG_PASSWORD = os.getenv("PG_PASSWORD", "admin")
 
 DATA_DIR = Path("data")
 CUSTOMERS = DATA_DIR / "customers.csv"

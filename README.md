@@ -21,7 +21,6 @@ It demonstrates ingestion, storage, transformation, and analytics using modern d
 <p align="center">
   <img src="docs/architecture.png" alt="Architecture diagram" width="600"/>
 </p>
----
 
 ## ⚡ Quickstart
 
@@ -62,8 +61,6 @@ dbt run + dbt test
 streamlit run dashboard/app.py --server.address=0.0.0.0 --server.port=8501
 
 ```
-
-Visit → http://localhost:8501
 
 ## 📊 Screenshots
 
@@ -128,7 +125,7 @@ CI/CD for data
 
 ## 👤 Author
 
-Ricky
-💼 Aspiring Data Engineer | Web Developer → Data Platforms
-📧 kengeangkang@gmail.com
-🔗 [LinkedIn](www.linkedin.com/in/kengeang-kang)
+Ricky  
+💼 Aspiring Data Engineer \| Web Developer → Data Platforms  
+📧 kengeangkang@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/yourprofile)

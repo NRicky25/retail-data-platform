@@ -119,7 +119,8 @@ CI/CD for data
 
 ## 👤 Author
 
-Ricky  
+### Ricky
+
 💼 Aspiring Data Engineer \| Web Developer → Data Platforms  
 📧 kengeangkang@gmail.com  
 🔗 [LinkedIn](https://www.linkedin.com/in/kengeang-kang/)
